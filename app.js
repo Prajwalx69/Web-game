@@ -55,7 +55,7 @@ const checkWinner = ()=>{
         if (val1 !== "" && val2  !== "" && val3 != ""){
             
          if ( val1 === val2 && val2 === val3){
-             msg.innerText = (`winner is ${val1}`)
+             msg.innerText = (`winner is 👀👑 ${val1}😎`)
              
              boxes.forEach((box)=> box.disabled= true);
              return;
@@ -74,7 +74,7 @@ const checkDraw =()=>{
         }
     })
     if (allFilled){
-            msg.innerText = "its draw"
+            msg.innerText = "its draw 🤡💩"
         }
     
 }
