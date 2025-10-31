@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+body{
+  background-color: #ECF4E8;
+  
+  
+}
+
+h1{
+  text-align: center;
+}
+
+
+
+
+.hidden {
+  display: none;
+ 
+  
+}
+.container{
+  
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+  
+  
+  
+  
+}
+
+.game{
+  
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5vmin;
+  
+  
+  
+}
+
+
+.box{
+  height: 70px;
+  background-color: #11224E;
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 6px 1px black;
+  color: white;
+  font-size: 40px;
+  
+  
+  
+  
+  width: 70px;
+}
+
+#msg{
+  margin-top: 14px;
+  color: green;
+  font-size: 22px;
+  
+}
+
+.msgC{
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  
+}
+#reset {
+  color: black;
+  border: none;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  font-size: 42px; /* अंदर comfortably फिट होगा */
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer; /* hover पर cursor बदलेगा */
+  transition: 0.2s ease;
+}
+
+#reset:hover {
+  background-color: #dcead4; /* हल्का hover effect */
+  transform: scale(1.05);
+}
+
+#menuBtn {
+  height: 45px;
+  width: 45px;
+  background-color: #F9B487;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+#menuBtn:hover {
+  background-color: #f7a868;
+  transform: scale(1.05);
+}
+
+.hidden {
+  display: none;
+}
+
+.navbar {
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: #ECF4E8;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#home {
+  color: black;
+  font-size: 22px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 50px;
+  
+  padding: 5px 10px;
+  text-align: left;
+  transition: 0.2s;
+}
+
+#home:hover {
+  background-color: #dcead4;
+}
